@@ -1,0 +1,38 @@
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: solid black;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    float: left;
+    display: inline;
+    text-align: center;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.table {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+a.button24 {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: .5em 2em;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-radius: 6px;
+    background: red;
+    margin-bottom: 40px;
+    margin-left: 35%;
+}
